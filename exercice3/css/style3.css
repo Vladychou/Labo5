@@ -1,0 +1,45 @@
+#conteneur{
+    display: grid;
+    grid-gap: 3px;
+    max-width: 50%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 20% 20% 60% 60% 20%;
+    grid-template-areas: 
+    "hd hd hd hd"
+    "nav nav nav nav"
+    "asd main main main"
+    "asd main main main"
+    "foot foot foot foot"
+    ;
+}
+header{
+    grid-area: hd;
+    background-color: aqua;
+    padding: 30px;
+    border: 2px solid black;
+}
+main{
+    grid-area: main;
+    background-color: aqua;
+    padding: 30px;
+    border: 2px solid black;
+}
+aside{
+    grid-area: asd;
+    background-color: aqua;
+    padding: 30px;
+    border: 2px solid black;
+}
+nav{
+    grid-area: nav;
+    background-color: aqua;
+    padding: 30px;
+    border: 2px solid black;
+}
+footer{
+    grid-area: foot;
+    background-color: aqua;
+    padding: 30px;
+    border: 2px solid black;
+}

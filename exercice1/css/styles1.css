@@ -1,0 +1,37 @@
+.puzzle {
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "p1 p2 p3"
+    "p4 p5 p6"
+    "p7 p8 p9"
+    ;
+}
+#piece1{
+    grid-area: p6;
+}
+#piece2{
+    grid-area: p7;
+}
+#piece3{
+    grid-area: p5;
+}
+#piece4{
+    grid-area: p8;
+}
+#piece5{
+    grid-area: p3;
+}
+#piece6{
+    grid-area: p9;
+}
+#piece6{
+    grid-area: p1;
+}
+#piece8{
+    grid-area: p2;
+}
+#piece9{
+    grid-area: p4;
+}

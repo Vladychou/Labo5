@@ -1,0 +1,39 @@
+#conteneur{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: red;
+    max-width: 50%;
+    margin:auto;
+    margin-bottom: 5%;
+}
+
+#conteneur2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    background-color: red;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+#conteneur3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    max-width: 50%;
+    margin: auto;
+    grid-gap:2px;
+    
+}
+
+div :nth-child(even){
+    background-color: green;
+}
+div :nth-child(odd){
+    background-color: red;
+}
+div div{
+    padding: 1em;
+    border: 2px solid black;
+    text-align: center;
+}
